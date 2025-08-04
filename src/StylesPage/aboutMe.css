@@ -1,0 +1,90 @@
+:root {
+  --color-primario: #0ff0fc;
+  --color-fondo: #0d0d0d;
+  --color-texto: #f4f4f4;
+  --color-acento: #39ff14;
+  --color-hover: #ff2ecc;
+
+  --color-titulo: #e0e0e0; /* gris claro para títulos */
+  --color-subtitulo: #b0b0b0; /* gris medio para subtítulos */
+  --color-texto-suave: #999999; /* gris tenue para texto de descripción */
+  --color-destacado: #00ffa2; /* verde agua para destacar */
+  --color-borde: #2e2e2e; /* para bordes o separadores */
+}
+
+#aboutMe {
+  color: var(--color-texto);
+  font-size: 1.6rem;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-content: center;
+}
+
+.description img {
+  height: 20rem;
+  width: auto;
+}
+.about-container {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.information {
+  width: 70rem;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin: 2rem auto 0 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+}
+/*
+Estilos de tarjetas para informacion tecnica
+*/
+
+.etiqueta {
+  font-weight: bold;
+}
+
+.content-school {
+  display: flex;
+}
+
+.content-experiencie {
+  display: flex;
+}
+
+.card-experiencie {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.btn-CV {
+  display: block;
+
+  background-color: var(--color-acento);
+  color: var(--color-fondo);
+  padding: 0.7rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  align-items: center;
+  width: fit-content;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.btn-CV:hover {
+  background-color: var(--color-hover);
+}
+
+.cv-link {
+  text-decoration: none;
+}

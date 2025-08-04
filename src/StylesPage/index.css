@@ -1,0 +1,10 @@
+:root {
+  --color-fondo: #0d0d0d;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--color-fondo);
+}

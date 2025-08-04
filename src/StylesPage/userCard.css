@@ -1,0 +1,49 @@
+:root {
+  --color-primario: #0ff0fc;
+  --color-fondo: #0d0d0d;
+  --color-texto: #f4f4f4;
+  --color-acento: #39ff14;
+  --color-hover: #ff2ecc;
+}
+
+#card {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  gap: 1.4rem;
+}
+#card span {
+  margin: 0.5rem;
+}
+#profileImg {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border: 0.2rem solid var(--color-texto);
+  border-radius: 20rem;
+}
+
+#profileImg:hover {
+  border: 0.2rem solid var(--color-hover);
+}
+
+#profileImg img {
+  display: inline-block;
+  height: 30rem;
+  width: 30rem;
+}
+
+socialNetworks {
+  margin: 2rem;
+}
+#socialNetworks span {
+  cursor: pointer;
+  margin: 5rem 1rem;
+  font-size: 3rem;
+}
+
+#socialNetworks span:hover {
+  color: var(--color-hover);
+}

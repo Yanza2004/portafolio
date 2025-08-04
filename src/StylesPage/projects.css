@@ -1,0 +1,108 @@
+:root {
+  --color-primario: #0ff0fc;
+  --color-fondo: #0d0d0d;
+  --color-texto: #f4f4f4;
+  --color-acento: #39ff14;
+  --color-hover: #ff2ecc;
+
+  --color-titulo: #e0e0e0; /* gris claro para títulos */
+  --color-subtitulo: #b0b0b0; /* gris medio para subtítulos */
+  --color-texto-suave: #999999; /* gris tenue para texto de descripción */
+  --color-destacado: #00ffa2; /* verde agua para destacar */
+  --color-borde: #2e2e2e; /* para bordes o separadores */
+}
+
+.card {
+  color: var(--color-texto);
+  margin: 0.5rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.descriptionContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.mainCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+  gap: 20rem; /* Espacio entre columnas (opcional) */
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: var(--color-titulo);
+}
+.img-ref {
+  margin: 2rem;
+  width: auto;
+  height: 30rem;
+  background-color: green;
+  border-radius: 2rem;
+}
+
+.description {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+  width: 60rem;
+  color: var(--color-texto-suave);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btnCodigo {
+  background-color: var(--color-acento);
+  color: var(--color-fondo);
+  padding: 0.7rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  align-items: center;
+  width: 10rem;
+  margin: 2rem auto;
+}
+
+.btnCodigo span {
+  margin: 0 0 0 0.4rem;
+}
+
+.btnCodigo:hover {
+  background-color: var(--color-hover);
+}
+.contenedorPatrones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+}
+.patrones {
+  margin: 0.2rem;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--color-subtitulo);
+  color: red;
+}
+
+.content {
+  font-size: 2rem;
+}
+
+.descriptionContainer div {
+  border: dotted --color-borde 0.2rem;
+}

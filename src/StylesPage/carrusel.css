@@ -1,0 +1,62 @@
+.carrusel-container {
+  width: 100%;
+  max-width: 50rem; /* ⬅️ reducido de 70rem a 50rem (800px aprox) */
+  margin: 0 auto;
+  overflow: visible;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 1rem;
+}
+
+.img-slide {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-slide img {
+  max-width: 100%;
+  max-height: 60%;
+  object-fit: contain;
+  display: block;
+  border-radius: 1rem;
+}
+
+/* Flechas más pequeñas */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 2rem;
+  height: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.slick-prev {
+  left: -2.5rem;
+}
+
+.slick-next {
+  right: -2.5rem;
+}
+
+/* Dots */
+.slick-dots li button:before {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+}

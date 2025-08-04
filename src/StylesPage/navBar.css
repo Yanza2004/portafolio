@@ -1,0 +1,21 @@
+#navBar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #f4f4f4;
+}
+
+#elementNav {
+  cursor: pointer;
+  padding: 0.6rem;
+  margin: 1rem 2rem 0 0;
+  font-size: 1.2rem;
+}
+
+#elementNav span {
+  margin: 0.5rem;
+}
+
+#elementNav:hover {
+  color: aqua;
+}

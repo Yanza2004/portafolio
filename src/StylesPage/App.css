@@ -1,0 +1,13 @@
+:root {
+  --color-primario: #0ff0fc;
+  --color-fondo: #0d0d0d;
+  --color-texto: #f4f4f4;
+  --color-acento: #39ff14;
+  --color-hover: #ff2ecc;
+}
+
+.container {
+  height: 80vh;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
