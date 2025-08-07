@@ -8,7 +8,7 @@ import "../../StylesPage/navBar.css";
 const home = {
   icon: FaHome,
   title: "Home",
-  ref: "/home",
+  ref: "/",
 };
 
 const proyectos = {
