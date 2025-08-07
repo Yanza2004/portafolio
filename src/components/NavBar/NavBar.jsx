@@ -8,25 +8,25 @@ import "../../StylesPage/navBar.css";
 const home = {
   icon: FaHome,
   title: "Home",
-  ref: "/",
+  ref: "/home",
 };
 
 const proyectos = {
   icon: FaScrewdriverWrench,
   title: "Proyectos",
-  ref: "projects",
+  ref: "/projects",
 };
 
 const informacion = {
   icon: FaUser,
   title: "Sobre mi",
-  ref: "aboutMe",
+  ref: "/aboutMe",
 };
 
 const contactos = {
   icon: FaUserGroup,
   title: "Contacto",
-  ref: "contacts",
+  ref: "/contacts",
 };
 
 function NavBar() {
