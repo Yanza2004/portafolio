@@ -3,7 +3,7 @@ import "../../StylesPage/App.css";
 
 function Home() {
   return (
-    <div id="/" className="container">
+    <div className="container">
       <UserCard />
     </div>
   );
